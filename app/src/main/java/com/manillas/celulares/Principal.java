@@ -25,9 +25,9 @@ public class Principal extends AppCompatActivity {
                         break;
                     }
                     case 1: {
-                       /* in = new Intent(Principal.this, Listar.class);
+                        in = new Intent(Principal.this, Listar.class);
                         startActivity(in);
-                        break;*/
+                        break;
                     }
                 }
             }

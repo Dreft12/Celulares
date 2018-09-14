@@ -13,7 +13,7 @@ import java.util.LinkedList;
 public class Listar extends AppCompatActivity {
     private TableLayout tabla;
     private LinkedList<Celular> celulares;
-    @SuppressLint("DefaultLocale")
+    @SuppressLint({"DefaultLocale", "SetTextI18n"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,21 +28,18 @@ public class Listar extends AppCompatActivity {
             TextView c4 = new TextView(this);
             TextView c5 = new TextView(this);
             TextView c6 = new TextView(this);
-            TextView c7 = new TextView(this);
-            c1.setText(String.valueOf(i+1));
-            c2.setText(celulares.get(i).getMarca());
-            c3.setText(celulares.get(i).getModelo());
-            c4.setText(celulares.get(i).getColor());
-            c5.setText(celulares.get(i).getAndroid());
-            c6.setText(String.format("%.1f",celulares.get(i).getRam()));
-            c7.setText(celulares.get(i).getPrecio());
+            c1.setText(celulares.get(i).getMarca());
+            c2.setText(celulares.get(i).getModelo());
+            c3.setText(celulares.get(i).getColor());
+            c4.setText(celulares.get(i).getAndroid());
+            c5.setText(String.format("%.1f",celulares.get(i).getRam()));
+            c6.setText(Integer.toString(celulares.get(i).getPrecio()));
             row.addView(c1);
             row.addView(c2);
             row.addView(c3);
             row.addView(c4);
             row.addView(c5);
             row.addView(c6);
-            row.addView(c7);
             tabla.addView(row);
         }
     }
