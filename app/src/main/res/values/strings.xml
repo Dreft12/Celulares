@@ -13,10 +13,12 @@
     <string name="guardar">Guardar</string>
     <string name="limpiar">Limpiar</string>
     <string name="regresar">Regresar</string>
+    <string name="precio">Precio</string>
     <string-array name="listaPrincipal">
         <item>@string/registrar</item>
         <item>@string/listar</item>
         <item>@string/reportes</item>
         <item>@string/salir</item>
     </string-array>
+    <string name="exitoGuardar">Celular guardado correctamente</string>
 </resources>
