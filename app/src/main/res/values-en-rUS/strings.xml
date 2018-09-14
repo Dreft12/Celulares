@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Cell phones "</string>
+    <string name="celulares">"Cell phones "</string>
+    <string name="registrar">Register</string>
+    <string name="listar">To list</string>
+    <string name="reportes">Reports</string>
+    <string name="salir">Exit</string>
+    <string name="marca">Brand</string>
+    <string name="modelo">Model</string>
+    <string name="color">Color</string>
+    <string name="ram">RAM</string>
+    <string name="android">Android</string>
+    <string name="guardar">Save</string>
+    <string name="limpiar">Clean</string>
+    <string name="regresar">Back</string>
+    <string name="precio">Price</string>
+    <string name="exitoGuardar">Cell saved correctly</string>
+    <string name="seleccionarReporte">Select a report</string>
+    <string name="mostrar">Show</string>
+    <string name="seleccione">Select</string>
+    <string name="reporUno">Report 1</string>
+    <string name="reporDos">Report 2</string>
+    <string name="reporTres">Report 3</string>
+    <string name="reporCuatro">Report 4</string>
+    <string name="reporCinco">Report 5</string>
+    <string name="reporCuatroMensaje">Number of black Apple cell phones:</string>
+</resources>
