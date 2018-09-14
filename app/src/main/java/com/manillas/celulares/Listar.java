@@ -12,7 +12,7 @@ import java.util.LinkedList;
 
 public class Listar extends AppCompatActivity {
     private TableLayout tabla;
-    private LinkedList<Celular> celulares;
+    private ArrayList<Celular> celulares;
     @SuppressLint({"DefaultLocale", "SetTextI18n"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {

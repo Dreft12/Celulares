@@ -29,6 +29,11 @@ public class Principal extends AppCompatActivity {
                         startActivity(in);
                         break;
                     }
+                    case 2: {
+                        in = new Intent(Principal.this, Reportes.class);
+                        startActivity(in);
+                        break;
+                    }
                 }
             }
         });

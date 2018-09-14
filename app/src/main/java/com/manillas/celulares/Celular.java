@@ -1,6 +1,8 @@
 package com.manillas.celulares;
 
-public class Celular {
+import java.io.Serializable;
+
+public class Celular implements Serializable {
     private String marca;
     private String color;
     private String modelo;

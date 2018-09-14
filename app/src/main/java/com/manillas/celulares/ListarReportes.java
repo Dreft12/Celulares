@@ -7,18 +7,18 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 public class ListarReportes extends AppCompatActivity {
     private TableLayout tabla;
-    private LinkedList<Celular> celulares;
+    private ArrayList<Celular> celulares;
     @SuppressLint({"DefaultLocale", "SetTextI18n"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listar_reportes);
         tabla = findViewById(R.id.tabla);
-        celulares = Datos.mostrar();
+        celulares= (ArrayList<Celular>) getIntent().getSerializableExtra("reporte");
         for (int i = 0; i < celulares.size(); i++){
             TableRow row = new TableRow(this);
             TextView c1 = new TextView(this);
