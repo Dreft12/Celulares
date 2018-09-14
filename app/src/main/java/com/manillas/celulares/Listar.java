@@ -19,7 +19,7 @@ public class Listar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listar);
         tabla = findViewById(R.id.tabla);
-        personas = Datos.obtener();
+        celulares = Datos.mostrar();
         for (int i = 0; i < celulares.size(); i++){
             TableRow row = new TableRow(this);
             TextView c1 = new TextView(this);
