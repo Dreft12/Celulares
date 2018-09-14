@@ -37,4 +37,6 @@
         <item>@string/reporCuatro</item>
         <item>@string/reporCinco</item>
     </string-array>
+    <string name="reporCuatroMensaje">Cantidad de celulares Apple negros: </string>
+    <string name="ok">Ok</string>
 </resources>
