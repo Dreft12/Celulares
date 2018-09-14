@@ -21,4 +21,20 @@
         <item>@string/salir</item>
     </string-array>
     <string name="exitoGuardar">Celular guardado correctamente</string>
+    <string name="seleccionarReporte">Seleccione un reporte</string>
+    <string name="mostrar">Mostrar Reporte</string>
+    <string name="seleccione">Seleccione...</string>
+    <string name="reporUno">Reporte 1</string>
+    <string name="reporDos">Reporte 2</string>
+    <string name="reporTres">Reporte 3</string>
+    <string name="reporCuatro">Reporte 4</string>
+    <string name="reporCinco">Reporte 5</string>
+    <string-array name="arrayReport">
+        <item>@string/seleccione</item>
+        <item>@string/reporUno</item>
+        <item>@string/reporDos</item>
+        <item>@string/reporTres</item>
+        <item>@string/reporCuatro</item>
+        <item>@string/reporCinco</item>
+    </string-array>
 </resources>
