@@ -36,11 +36,26 @@ public class Registrar extends AppCompatActivity {
                                 c = new Celular(marca, modelo, color, ram, precio, android);
                                 c.guardar();
                                 Toast.makeText(this, getResources().getText(R.string.exitoGuardar), Toast.LENGTH_SHORT).show();
+                                borrar();
                             }
                         }
                     }
                 }
             }
         }
+    }
+
+    public void limpiar(View v){
+        borrar();
+    }
+
+    private void borrar(){
+        txtRam.setText("");
+        txtColor.setText("");
+        txtPrecio.setText("");
+        txtAndroid.setText("");
+        txtMarca.setText("");
+        txtModelo.setText("");
+        txtMarca.requestFocus();
     }
 }
