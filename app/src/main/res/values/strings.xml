@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Celulares</string>
+    <string name="celulares">Celulares</string>
+    <string name="registrar">Registrar</string>
+    <string name="listar">Listar</string>
+    <string name="reportes">Reportes</string>
+    <string name="salir">Salir</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="color">Color</string>
+    <string name="ram">RAM</string>
+    <string name="android">Android</string>
+    <string name="guardar">Guardar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="regresar">Regresar</string>
+    <string-array name="listaPrincipal">
+        <item>@string/registrar</item>
+        <item>@string/listar</item>
+        <item>@string/reportes</item>
+        <item>@string/salir</item>
+    </string-array>
+</resources>
