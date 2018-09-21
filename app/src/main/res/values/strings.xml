@@ -40,4 +40,12 @@
     <string name="reporCuatroMensaje">Cantidad de celulares Apple negros: </string>
     <string name="ok">Ok</string>
     <string name="so">S.O.</string>
+    <string name="errorArrayVacio">Error</string>
+    <string name="errorArrayVacio2">No hay datos que mostrar.</string>
+    <string name="errorMarca">Ingrese un valor en el campo Marca</string>
+    <string name="errorModelo">Ingrese un valor en el campo Modelo</string>
+    <string name="errorAndroid">Ingrese un valor en el campo Android</string>
+    <string name="errorPrecio">Ingrese un valor en el campo Precio</string>
+    <string name="errorColor">Ingrese un valor en el campo Color</string>
+    <string name="errorRAM">Ingrese un valor en el campo RAM</string>
 </resources>

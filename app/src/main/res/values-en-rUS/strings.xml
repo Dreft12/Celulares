@@ -25,4 +25,12 @@
     <string name="reporCuatro">Report 4</string>
     <string name="reporCinco">Report 5</string>
     <string name="reporCuatroMensaje">Number of black Apple cell phones:</string>
+    <string name="errorMarca">Enter a value in the Brand field</string>
+    <string name="errorModelo">Enter a value in the Model field</string>
+    <string name="errorAndroid">Enter a value in the S.O. field</string>
+    <string name="errorPrecio">Enter a value in the price field</string>
+    <string name="errorColor">Enter a value in the Color field</string>
+    <string name="errorRAM">Enter a value in the RAM field</string>
+    <string name="errorArrayVacio">Error</string>
+    <string name="errorArrayVacio2">No data to show</string>
 </resources>

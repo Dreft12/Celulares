@@ -37,11 +37,23 @@ public class Registrar extends AppCompatActivity {
                                 c.guardar();
                                 Toast.makeText(this, getResources().getText(R.string.exitoGuardar), Toast.LENGTH_SHORT).show();
                                 borrar();
+                            }else{
+                                txtRam.setError(getResources().getString(R.string.errorRAM));
                             }
+                        }else{
+                            txtColor.setError(getResources().getString(R.string.errorColor));
                         }
+                    }else{
+                        txtPrecio.setError(getResources().getString(R.string.errorPrecio));
                     }
+                }else{
+                    txtAndroid.setError(getResources().getString(R.string.errorAndroid));
                 }
+            }else{
+                txtModelo.setError(getResources().getString(R.string.errorModelo));
             }
+        }else{
+            txtMarca.setError(getResources().getString(R.string.errorMarca));
         }
     }
 
@@ -57,5 +69,9 @@ public class Registrar extends AppCompatActivity {
         txtMarca.setText("");
         txtModelo.setText("");
         txtMarca.requestFocus();
+    }
+
+    public void back(View v){
+        finish();
     }
 }
